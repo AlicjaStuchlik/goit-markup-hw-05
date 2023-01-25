@@ -72,14 +72,10 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
-header .nav-container {
+.header .nav-container,
+.navigation {
   display: flex;
   height: 80px;
-  justify-content: space-between;
-}
-
-header nav {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -169,7 +165,7 @@ header nav {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/backgroundimage.jpg);
+    url(../images/background-image.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -284,6 +280,7 @@ header nav {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: var(--thirt-color);
 }
 
 .our-team-card-content {
@@ -420,7 +417,7 @@ header nav {
   text-decoration: none;
 }
 
-.footer-social-icons h3 {
+.social-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -445,7 +442,7 @@ header nav {
   margin-bottom: 100px;
 }
 
-.social-list div {
+.div-icon {
   width: 44px;
   height: 44px;
   background: rgba(255, 255, 255, 0.1);
@@ -453,8 +450,8 @@ header nav {
   padding: 12px;
 }
 
-.social-list div:hover,
-.social-list div:focus {
+.div-icon:hover,
+.div-icon:focus {
   background-color: var(--span-logo-color);
 }
 
@@ -464,15 +461,10 @@ header nav {
 
 /* portfolio website  buttons section as header is the same*/
 
-
 .list-button {
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
-}
-
-.list-button:hover,
-.list-button:focus {
 }
 
 .filter-button:not(:last-child) {
@@ -547,4 +539,12 @@ header nav {
   color: var(--secondary-color);
   font-size: 16px;
   line-height: 1.875;
+}
+
+.social-list,
+.our-client-logo,
+.team-card-icons,
+.menu-icon,
+.image-list {
+  cursor: pointer;
 }
