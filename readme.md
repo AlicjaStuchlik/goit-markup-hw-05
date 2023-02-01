@@ -1,1 +1,1 @@
-https://github.com/AlicjaStuchlik/goit-markup-hw-05
+https://alicjastuchlik.github.io/goit-markup-hw-05/
