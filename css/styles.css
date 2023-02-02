@@ -454,7 +454,8 @@ body {
 }
 
 .footer-social-icons {
-  padding-left: 70px;
+  margin-left: 70px;
+  padding-bottom: 72px;
 }
 
 .social-list {
@@ -463,7 +464,10 @@ body {
   height: 44px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+}
+
+.footer-icon {
+  fill: var(--thirt-color);
 }
 
 .div-icon {
@@ -482,9 +486,7 @@ body {
  background-color: var(--span-logo-color);
 }
 
-.footer-icon {
-  fill: var(--thirt-color);
-}
+
 
 /* portfolio website  buttons section as header is the same*/
 
@@ -601,6 +603,7 @@ body {
   color: var(--secondary-color);
   font-size: 16px;
   line-height: 1.875;
+  display: flex;
 }
 
 .social-list,
@@ -618,7 +621,6 @@ body {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
-  transition:  1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
@@ -672,6 +674,5 @@ fill: #000000;
   border: none;
   cursor: pointer;
 }
-
 
 
