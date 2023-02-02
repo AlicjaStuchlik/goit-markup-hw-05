@@ -137,16 +137,24 @@ body {
 
 
 .contact-link {
-  font-weight: 500;
-  line-height: 1.17;
-  color: var(--secondary-color);
-  fill: var(--secondary-color);
+ color: var(--secondary-color);
+ fill: var(--secondary-color);
+ font-weight: 500;
+ line-height: 1.17;
+
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--span-logo-color);
+  fill: var(--span-logo-color);
 }
 
 
 .menu-icon {
   margin-right: 5px;
 }
+
 
 
 
